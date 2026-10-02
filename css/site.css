@@ -91,6 +91,21 @@ h1, h2, h3, .org, .when, .rail a, .route, dt, .skip {
   color: var(--slate);
 }
 
+.badge {
+  display: inline-block;
+  margin: 0.8rem 0 0;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--tint);
+  color: var(--accent);
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  cursor: help;
+}
+
 .contact {
   grid-column: 1 / -1;
   margin: 1.25rem 0 0;
@@ -324,7 +339,7 @@ footer {
 
 @media print {
   body { background: #fff; font-size: 9.6pt; line-height: 1.45; }
-  .nav, .cv-link, .skip, .shots, .outside, .route-section, .sub, footer { display: none !important; }
+  .nav, .cv-link, .skip, .shots, .outside, .route-section, .sub, .badge, footer { display: none !important; }
   .page { display: block; padding: 0; max-width: none; }
   .rail { position: static; height: auto; display: block; padding: 0 0 0.4rem; border-bottom: 2px solid var(--accent); }
   .portrait { display: none; }
