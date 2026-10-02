@@ -193,7 +193,7 @@ h2 {
   background: var(--paper);
   border: 2px solid var(--accent);
 }
-.route li:last-child::before { background: var(--accent); }
+.route li:first-child::before { background: var(--accent); }
 .route .city { display: block; font-weight: 600; font-size: 1.02rem; }
 .route .years { display: block; font-size: 0.9rem; color: var(--slate); }
 
