@@ -34,16 +34,17 @@ export const summary = [
 
 // Most recent first.
 export const route = [
-  { city: "Bengaluru", years: "2025 – present" },
-  { city: "Chennai", years: "2021 – 2024" },
-  { city: "San Francisco", years: "2020 – 2021" },
-  { city: "San Jose", years: "2018 – 2020" },
-  { city: "Minneapolis", years: "2017 – 2018" },
-  { city: "Chennai", years: "2014 – 2017" },
+  { city: "Bengaluru", years: "2025 – present", target: "citi" },
+  { city: "Chennai", years: "2021 – 2024", target: "applied-data-finance" },
+  { city: "San Francisco", years: "2020 – 2021", target: "funding-circle" },
+  { city: "San Jose", years: "2018 – 2020", target: "latentview-associate" },
+  { city: "Minneapolis", years: "2017 – 2018", target: "carlson-analytics-lab" },
+  { city: "Chennai", years: "2014 – 2017", target: "latentview-analyst" },
 ];
 
 export const experience = [
   {
+    id: "citi",
     when: "Apr 2025 – present",
     title: "Associate Vice President, Global Workforce Optimization",
     org: "Citi",
@@ -56,6 +57,7 @@ export const experience = [
     ],
   },
   {
+    id: "applied-data-finance",
     when: "2021 – Dec 2024",
     title: "Product Manager",
     org: "Applied Data Finance",
@@ -67,6 +69,7 @@ export const experience = [
     ],
   },
   {
+    id: "funding-circle",
     when: "2020 – 2021",
     title: "Risk Analyst",
     org: "Funding Circle",
@@ -77,6 +80,7 @@ export const experience = [
     ],
   },
   {
+    id: "latentview-associate",
     when: "2018 – 2020",
     title: "Associate, Credit Risk Strategy and Modeling",
     org: "LatentView Analytics",
@@ -86,6 +90,7 @@ export const experience = [
     ],
   },
   {
+    id: "carlson-analytics-lab",
     when: "2017 – 2018",
     title: "Analytics Consultant",
     org: "Carlson Analytics Lab",
@@ -95,6 +100,7 @@ export const experience = [
     ],
   },
   {
+    id: "latentview-analyst",
     when: "2014 – 2017",
     title: "Analyst, then Senior Analyst",
     org: "LatentView Analytics",
@@ -109,12 +115,14 @@ export const experience = [
 
 export const education = [
   {
+    id: "msba",
     when: "2017 – 2018",
     title: "MS, Business Analytics",
     org: "Carlson School of Management, University of Minnesota",
     place: "Minneapolis, USA",
   },
   {
+    id: "btech",
     when: "2010 – 2014",
     title: "B.Tech, Instrumentation and Control Engineering",
     org: "National Institute of Technology, Trichy",
