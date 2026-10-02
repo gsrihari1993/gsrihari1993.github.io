@@ -224,7 +224,9 @@ h2 {
 .skills dd { margin: 0.15rem 0 0; }
 
 /* Outside work */
-.outside p { max-width: var(--measure); margin: 0 0 1.25rem; }
+.facts { max-width: var(--measure); margin: 0 0 1.25rem; padding-left: 1.1rem; }
+.facts li { margin: 0 0 0.55rem; padding-left: 0.2rem; }
+.facts li::marker { color: var(--accent); }
 .shots {
   display: grid;
   grid-template-columns: 1fr;
