@@ -137,9 +137,4 @@ export const outsideWork = {
     "Swam at state level in Tamil Nadu and captained the NIT Trichy swimming team. Won 5 golds and 2 silvers at the KV national meet (2009) and 3 golds and 2 silvers at the IIT Kharagpur inter-collegiate meet (2012).",
     "PADI Advanced Open Water diver. Was a member of the Tamil Nadu Sailing Association and the National Life Saving Association, India.",
   ],
-  photos: [
-    { src: "images/sailing.jpg", width: 800, height: 534, alt: "Sailing a dinghy in a harbour" },
-    { src: "images/kayaking-1000.jpg", width: 1000, height: 563, alt: "Kayaking on a calm lake" },
-    { src: "images/surfing-1000.jpg", width: 1000, height: 605, alt: "Surfing a small wave" },
-  ],
 };
