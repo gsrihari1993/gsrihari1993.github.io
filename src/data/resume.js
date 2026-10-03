@@ -39,7 +39,7 @@ export const experience = [
     title: "Assistant Vice President, Global Workforce Optimization",
     org: "Citi",
     bullets: [
-      "Lead a seven-member low-code/no-code automation team that I built from scratch. The team runs a multi-API platform handling 600+ transactions a day, so operations agents can request overtime and voluntary time off, log out and update skills themselves.",
+      "Lead a seven-member low-code/no-code automation team. The team runs a multi-API platform handling 600+ transactions a day, so operations agents can request overtime and voluntary time off, log out and update skills themselves.",
       "Own the data enablement initiatives. I set up a staging layer of 60+ tables that 20+ reports and other analytics solutions use.",
       "Own the Xceptor platform initiatives: an application-support intake for enquiries and enhancement requests on the GWFO product suite, and the ICRM mitigation-adjustment workflow, which calibrates systemic forecasts with approval across three teams for 100+ capacity plans.",
       "Built Lineage Console, an AI-assisted tool that maps 10,000 critical data elements from 550+ capacity plans across 4-5 hops. I own its governance and upkeep.",
