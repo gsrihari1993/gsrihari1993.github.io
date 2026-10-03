@@ -42,7 +42,6 @@ export const experience = [
       "Own the data enablement initiatives. I set up a staging layer of 60+ tables that 20+ reports and other analytics solutions use.",
       "Own the Xceptor platform initiatives. A seven-member low-code/no-code automation team that I lead runs a multi-API platform handling 600+ transactions a day, so operations agents can request overtime and voluntary time off, log out and update skills themselves. The initiatives also include an application-support intake for enquiries and enhancement requests on the GWFO product suite, and the ICRM mitigation-adjustment workflow, which calibrates systemic forecasts with approval across three teams for 100+ capacity plans.",
       "Built Lineage Console, an AI-assisted tool that maps 10,000 critical data elements from 550+ capacity plans across 4-5 hops. I own its governance and upkeep.",
-      "Prepare a proposal for AI-based anomaly detection and scheduling optimization on Xceptor data exports.",
       "Was a core member of a Report Rationalization initiative that reviewed clients' reporting landscape and produced a target-state architecture and operating model in six weeks.",
     ],
   },
