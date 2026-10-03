@@ -14,7 +14,7 @@ export default function Job({ id, when, title, org, place, bullets, collapsible 
         )}
       </h3>
       <p className="org">
-        <strong>{org}</strong>, {place}
+        <strong>{org}</strong>{place ? `, ${place}` : ""}
       </p>
       {bullets && (
         <div className="job-body" id={bodyId} hidden={collapsible && !open}>
