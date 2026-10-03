@@ -2,7 +2,6 @@ import { useCallback, useEffect, useState } from "react";
 import Rail from "./components/Rail.jsx";
 import Intro from "./components/Intro.jsx";
 import Summary from "./components/Summary.jsx";
-import Route from "./components/Route.jsx";
 import Experience from "./components/Experience.jsx";
 import Education from "./components/Education.jsx";
 import Skills from "./components/Skills.jsx";
@@ -53,7 +52,6 @@ export default function App() {
         <main id="main">
           <Intro />
           <Summary />
-          <Route onSelect={showRole} />
           <Experience open={open} onToggle={toggle} onSetAll={setAll} flashId={flash?.id} />
           <Education />
           <Skills />

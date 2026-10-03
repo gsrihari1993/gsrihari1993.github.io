@@ -4,7 +4,7 @@ import ThemeToggle from "./ThemeToggle.jsx";
 import CopyEmail from "./CopyEmail.jsx";
 
 const navIds = nav.map((item) => item.href.slice(1));
-const watchedIds = ["top", "summary", "route", ...navIds];
+const watchedIds = ["top", "summary", ...navIds];
 
 export default function Rail() {
   const { photo } = profile;
